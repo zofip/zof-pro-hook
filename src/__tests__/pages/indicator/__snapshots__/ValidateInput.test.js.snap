@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ValidateInput /> Rendering 1`] = `<PorcentSlider />`;
+
+exports[`<ValidateInput /> Rendering 2`] = `<NumberInput />`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<IndicatorCard /> Rendering 1`] = `
+<ContextProvider
+  value={[MockFunction]}
+>
+  <IndicatorCard
+    indicator={
+      Object {
+        "componentId": 1,
+        "extractorId": 3,
+        "graphic": "Areas",
+        "id": 3,
+        "kpi": ">65",
+        "metric": Object {
+          "description": "Cobertura de código a través de pruebas unitarias. (Obtener de Sonar) ",
+          "id": 3,
+          "name": "coverage",
+          "type": "Técnico / Código",
+          "unit": "PORCENTAJE",
+        },
+        "metricId": 3,
+        "percintil_alert": 40,
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`<IndicatorCard /> Rendering 2`] = `
+<WithStyles(ForwardRef(Card))
+  className="makeStyles-card-1"
+>
+  <WithStyles(ForwardRef(CardHeader))
+    avatar={
+      <ForwardRef(WithStyles)
+        aria-label="recipe"
+        className=""
+      >
+        <Memo />
+      </ForwardRef(WithStyles)>
+    }
+    subheader="Técnico / Código"
+    title="code_smell"
+  />
+  <WithStyles(ForwardRef(CardContent))>
+    <WithStyles(ForwardRef(Typography))
+      color="textSecondary"
+      component="p"
+      variant="body2"
+    >
+      kpi: 
+      &lt;40
+    </WithStyles(ForwardRef(Typography))>
+    <ValidateInput
+      handleInputValueChange={[Function]}
+      unit="CANTIDAD"
+    />
+  </WithStyles(ForwardRef(CardContent))>
+  <WithStyles(ForwardRef(CardActions))
+    disableSpacing={true}
+  >
+    <WithStyles(ForwardRef(IconButton))
+      aria-expanded={false}
+      aria-label="show more"
+      className="makeStyles-expand-3"
+      onClick={[Function]}
+    >
+      <ExpandMoreIcon />
+    </WithStyles(ForwardRef(IconButton))>
+    <WithStyles(ForwardRef(IconButton))
+      aria-label="add"
+      className="makeStyles-add-6"
+      color="secondary"
+      onClick={[Function]}
+    >
+      <AddIcon />
+    </WithStyles(ForwardRef(IconButton))>
+  </WithStyles(ForwardRef(CardActions))>
+  <WithStyles(ForwardRef(Collapse))
+    in={false}
+    timeout="auto"
+    unmountOnExit={true}
+  >
+    <WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(Typography))
+        paragraph={true}
+      >
+        Description:
+      </WithStyles(ForwardRef(Typography))>
+      <WithStyles(ForwardRef(Typography))
+        color="textSecondary"
+        variant="body2"
+      >
+        Un problema relacionado con la mantenibilidad en el código. Dejarlo como está significa que, en el mejor de los casos, los mantenedores tendrán más dificultades de lo que deberían hacer cambios en el código. En el peor de los casos, estarán tan confundidos por el estado del código que introducirán errores adicionales a medida que realicen cambios. (Obtiene de Sonar).
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(CardContent))>
+  </WithStyles(ForwardRef(Collapse))>
+</WithStyles(ForwardRef(Card))>
+`;

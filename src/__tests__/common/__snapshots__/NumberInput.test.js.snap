@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NumberInput /> Rendering 1`] = `
+<WithStyles(ForwardRef(TextField))
+  InputProps={
+    Object {
+      "startAdornment": <ForwardRef(WithStyles)
+        position="start"
+      >
+        #
+      </ForwardRef(WithStyles)>,
+    }
+  }
+  className="makeStyles-margin-2 makeStyles-textField-4"
+/>
+`;

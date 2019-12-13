@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DialogTns /> Rendering 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Dialog))
+    aria-labelledby="max-width-dialog-title"
+    fullWidth={true}
+    maxWidth="xs"
+  >
+    <WithStyles(ForwardRef(DialogTitle))
+      id="max-width-dialog-title"
+    />
+    <WithStyles(ForwardRef(DialogContent))>
+      <WithStyles(ForwardRef(DialogContentText)) />
+    </WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(DialogActions))>
+      <WithStyles(ForwardRef(Button))
+        color="primary"
+      >
+        Close
+      </WithStyles(ForwardRef(Button))>
+    </WithStyles(ForwardRef(DialogActions))>
+  </WithStyles(ForwardRef(Dialog))>
+</Fragment>
+`;
